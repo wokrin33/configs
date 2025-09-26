@@ -1,0 +1,10 @@
+{
+  "/home/wokrin/.config/hypr/wlogout/build/wlogout": "/usr/local/bin/wlogout",
+  "/home/wokrin/.config/hypr/wlogout/completions/wlogout.bash": "/usr/local/share/bash-completion/completions/wlogout.bash",
+  "/home/wokrin/.config/hypr/wlogout/completions/wlogout.fish": "/usr/local/share/fish/completions/wlogout.fish",
+  "/home/wokrin/.config/hypr/wlogout/completions/_wlogout": "/usr/local/share/zsh/site-functions/_wlogout",
+  "/home/wokrin/.config/hypr/wlogout/layout": "/usr/local/etc/wlogout/layout",
+  "/home/wokrin/.config/hypr/wlogout/style.css": "/usr/local/etc/wlogout/style.css",
+  "/home/wokrin/.config/hypr/wlogout/assets": "/usr/local/share/wlogout/assets",
+  "/home/wokrin/.config/hypr/wlogout/icons": "/usr/local/share/wlogout/icons"
+}

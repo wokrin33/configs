@@ -1,0 +1,247 @@
+Build started at 2025-08-08T02:02:39.861885
+Main binary: /usr/bin/python
+Build Options: 
+Python system: Linux
+The Meson build system
+Version: 1.8.3
+Source dir: /home/wokrin/.config/hypr/wlogout
+Build dir: /home/wokrin/.config/hypr/wlogout/build
+Build type: native build
+Project name: wlogout
+Project version: 1.2.2
+-----------
+Detecting compiler via: `cc --version` -> 0
+stdout:
+cc (GCC) 15.1.1 20250729
+Copyright (C) 2025 Free Software Foundation, Inc.
+Это свободно распространяемое программное обеспечение. Условия копирования
+приведены в исходных текстах.
+
+  Без гарантии каких-либо качеств, включая 
+коммерческую ценность и применимость для каких-либо целей.
+-----------
+Running command: -cpp -x c -E -dM -
+-----
+-----------
+Detecting linker via: `cc -Wl,--version` -> 0
+stdout:
+GNU ld (GNU Binutils) 2.45.0
+Copyright (C) 2025 Free Software Foundation, Inc.
+Эта программа является свободным программным обеспечением. Вы можете распространять
+её на условиях GNU General Public License версии 3 или (по вашему выбору)
+более поздней версии.
+Эта программа не имеет абсолютно никаких не гарантий.
+-----------
+stderr:
+collect2 версия 15.1.1 20250729
+/usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cc9czlV0.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/../../.. -L/lib -L/usr/lib --version -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/../../../../lib/crtn.o
+-----------
+Sanity testing C compiler: cc
+Is cross compiler: False.
+Sanity check compiler command line: cc sanitycheckc.c -o sanitycheckc.exe -D_FILE_OFFSET_BITS=64
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command:  /home/wokrin/.config/hypr/wlogout/build/meson-private/sanitycheckc.exe
+C compiler for the host machine: cc (gcc 15.1.1 "cc (GCC) 15.1.1 20250729")
+C linker for the host machine: cc ld.bfd 2.45.0
+-----------
+Detecting archiver via: `gcc-ar --version` -> 0
+stdout:
+GNU ar (GNU Binutils) 2.45.0
+Copyright (C) 2025 Free Software Foundation, Inc.
+Эта программа является открытым программным обеспечением; вы можете
+распространять её согласно условиям GNU General Public License версии 3 или
+(по вашему выбору) более новой версии.
+Эта программа не имеет абсолютно никаких гарантий.
+-----------
+-----------
+Detecting compiler via: `cc --version` -> 0
+stdout:
+cc (GCC) 15.1.1 20250729
+Copyright (C) 2025 Free Software Foundation, Inc.
+Это свободно распространяемое программное обеспечение. Условия копирования
+приведены в исходных текстах.
+
+  Без гарантии каких-либо качеств, включая 
+коммерческую ценность и применимость для каких-либо целей.
+-----------
+Running command: -cpp -x c -E -dM -
+-----
+-----------
+Detecting linker via: `cc -Wl,--version` -> 0
+stdout:
+GNU ld (GNU Binutils) 2.45.0
+Copyright (C) 2025 Free Software Foundation, Inc.
+Эта программа является свободным программным обеспечением. Вы можете распространять
+её на условиях GNU General Public License версии 3 или (по вашему выбору)
+более поздней версии.
+Эта программа не имеет абсолютно никаких не гарантий.
+-----------
+stderr:
+collect2 версия 15.1.1 20250729
+/usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccSR3vMY.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/../../.. -L/lib -L/usr/lib --version -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/../../../../lib/crtn.o
+-----------
+Sanity testing C compiler: cc
+Is cross compiler: False.
+Sanity check compiler command line: cc sanitycheckc.c -o sanitycheckc.exe -D_FILE_OFFSET_BITS=64
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command:  /home/wokrin/.config/hypr/wlogout/build/meson-private/sanitycheckc.exe
+C compiler for the build machine: cc (gcc 15.1.1 "cc (GCC) 15.1.1 20250729")
+C linker for the build machine: cc ld.bfd 2.45.0
+-----------
+Detecting archiver via: `gcc-ar --version` -> 0
+stdout:
+GNU ar (GNU Binutils) 2.45.0
+Copyright (C) 2025 Free Software Foundation, Inc.
+Эта программа является открытым программным обеспечением; вы можете
+распространять её согласно условиям GNU General Public License версии 3 или
+(по вашему выбору) более новой версии.
+Эта программа не имеет абсолютно никаких гарантий.
+-----------
+Build machine cpu family: x86_64
+Build machine cpu: x86_64
+Host machine cpu family: x86_64
+Host machine cpu: x86_64
+Target machine cpu family: x86_64
+Target machine cpu: x86_64
+Configuring config.h using configuration
+Pkg-config binary missing from cross or native file, or env var undefined.
+Trying a default Pkg-config fallback at pkg-config
+Found pkg-config: YES (/usr/bin/pkg-config) 2.5.1
+Determining dependency 'scdoc' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --modversion scdoc` -> 1
+stderr:
+Package scdoc was not found in the pkg-config search path.
+Perhaps you should add the directory containing `scdoc.pc'
+to the PKG_CONFIG_PATH environment variable
+Package 'scdoc' not found
+-----------
+CMake binary for build machine is not cached
+CMake binary missing from cross or native file, or env var undefined.
+Trying a default CMake fallback at cmake
+Did not find CMake 'cmake'
+Found CMake: NO
+CMake binary for machine build machine not found. Giving up.
+Build-time dependency scdoc found: NO (tried pkgconfig and cmake)
+Determining dependency 'gtk+-wayland-3.0' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --modversion gtk+-wayland-3.0` -> 0
+stdout:
+3.24.49
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --cflags gtk+-wayland-3.0` -> 0
+stdout:
+-I/usr/include/gtk-3.0 -I/usr/include/pango-1.0 -I/usr/include/cloudproviders -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/atk-1.0 -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include -I/usr/include/fribidi -I/usr/include/pixman-1 -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/gio-unix-2.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/sysprof-6 -pthread
+-----------
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --libs gtk+-wayland-3.0` -> 0
+stdout:
+-L/usr/lib -lgtk-3 -lgdk-3 -lz -lpangocairo-1.0 -lcairo-gobject -lgdk_pixbuf-2.0 -latk-1.0 -lpango-1.0 -lcairo -lharfbuzz -lgio-2.0 -lgobject-2.0 -lglib-2.0
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --libs gtk+-wayland-3.0` -> 0
+stdout:
+-lgtk-3 -lgdk-3 -lz -lpangocairo-1.0 -lcairo-gobject -lgdk_pixbuf-2.0 -latk-1.0 -lpango-1.0 -lcairo -lharfbuzz -lgio-2.0 -lgobject-2.0 -lglib-2.0
+-----------
+Running compile:
+Working directory:  /home/wokrin/.config/hypr/wlogout/build/meson-private/tmprqh0xlyh
+Code:
+
+        #include<stddef.h>
+        #include<stdio.h>
+        int main(void) {
+            printf("%ld\n", (long)(sizeof(void *)));
+            return 0;
+        }
+-----------
+Command line: `cc /home/wokrin/.config/hypr/wlogout/build/meson-private/tmprqh0xlyh/testfile.c -o /home/wokrin/.config/hypr/wlogout/build/meson-private/tmprqh0xlyh/output.exe -D_FILE_OFFSET_BITS=64 -O0` -> 0
+Program stdout:
+
+8
+
+Program stderr:
+
+
+Running compile:
+Working directory:  /home/wokrin/.config/hypr/wlogout/build/meson-private/tmpnyxqkvcf
+Code:
+
+-----------
+Command line: `cc /home/wokrin/.config/hypr/wlogout/build/meson-private/tmpnyxqkvcf/testfile.c -o /home/wokrin/.config/hypr/wlogout/build/meson-private/tmpnyxqkvcf/output.obj -c -D_FILE_OFFSET_BITS=64 -O0 --print-search-dirs` -> 0
+stdout:
+install: /usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/
+programs: =/usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/../../../../x86_64-pc-linux-gnu/bin/x86_64-pc-linux-gnu/15.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/../../../../x86_64-pc-linux-gnu/bin/
+libraries: =/usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/../../../../x86_64-pc-linux-gnu/lib/x86_64-pc-linux-gnu/15.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/../../../../x86_64-pc-linux-gnu/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/../../../x86_64-pc-linux-gnu/15.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/../../../../lib/:/lib/x86_64-pc-linux-gnu/15.1.1/:/lib/../lib/:/usr/lib/x86_64-pc-linux-gnu/15.1.1/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/../../../../x86_64-pc-linux-gnu/lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/../../../:/lib/:/usr/lib/
+-----------
+Run-time dependency gtk+-wayland-3.0 found: YES 3.24.49
+Determining dependency 'gtk-layer-shell-0' with pkg-config executable '/usr/bin/pkg-config'
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --modversion gtk-layer-shell-0` -> 0
+stdout:
+0.9.2
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --cflags gtk-layer-shell-0` -> 0
+stdout:
+-I/usr/include/gtk-layer-shell -I/usr/include/gtk-3.0 -I/usr/include/pango-1.0 -I/usr/include/cloudproviders -I/usr/include/cairo -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/atk-1.0 -I/usr/include/dbus-1.0 -I/usr/lib/dbus-1.0/include -I/usr/include/fribidi -I/usr/include/pixman-1 -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/gio-unix-2.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/sysprof-6 -pthread
+-----------
+env[PKG_CONFIG_ALLOW_SYSTEM_LIBS]: 1
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --libs gtk-layer-shell-0` -> 0
+stdout:
+-L/usr/lib -lgtk-layer-shell
+-----------
+env[PKG_CONFIG_PATH]: 
+env[PKG_CONFIG]: /usr/bin/pkg-config
+-----------
+Called: `/usr/bin/pkg-config --libs gtk-layer-shell-0` -> 0
+stdout:
+-lgtk-layer-shell
+-----------
+Run-time dependency gtk-layer-shell-0 found: YES 0.9.2
+Build targets in project: 1
+
+Found ninja-1.12.1 at /usr/bin/ninja
+Failed to guess install tag for /usr/local/share/bash-completion/completions/wlogout.bash
+Failed to guess install tag for /usr/local/share/fish/completions/wlogout.fish
+Failed to guess install tag for /usr/local/share/zsh/site-functions/_wlogout
+Failed to guess install tag for /usr/local/etc/wlogout/layout
+Failed to guess install tag for /usr/local/etc/wlogout/style.css
+Failed to guess install tag for /usr/local/share/wlogout/dummy
+Failed to guess install tag for /usr/local/share/wlogout/dummy
+Failed to guess install tag for /usr/local/share/bash-completion/completions/wlogout.bash
+Failed to guess install tag for /usr/local/share/fish/completions/wlogout.fish
+Failed to guess install tag for /usr/local/share/zsh/site-functions/_wlogout
+Failed to guess install tag for /usr/local/etc/wlogout/layout
+Failed to guess install tag for /usr/local/etc/wlogout/style.css
+Failed to guess install tag for /usr/local/share/wlogout/dummy
+Failed to guess install tag for /usr/local/share/wlogout/dummy
+WARNING: Running the setup command as `meson [options]` instead of `meson setup [options]` is ambiguous and deprecated.

@@ -1,0 +1,31 @@
+# List of files installed by Meson
+# Does not contain files installed by custom scripts.
+/usr/local/share/wlogout/assets/suspend.svg
+/usr/local/share/wlogout/assets/reboot.svg
+/usr/local/share/wlogout/assets/CREDIT.md
+/usr/local/share/wlogout/assets/lock.svg
+/usr/local/share/wlogout/assets/hibernate.svg
+/usr/local/share/wlogout/assets/shutdown.svg
+/usr/local/share/wlogout/assets/logout.svg
+/usr/local/share/wlogout/icons/reboot.png
+/usr/local/share/wlogout/icons/logout.png
+/usr/local/share/wlogout/icons/suspend.png
+/usr/local/share/wlogout/icons/shutdown.png
+/usr/local/share/wlogout/icons/hibernate.png
+/usr/local/share/wlogout/icons/lock.png
+/usr/local/bin/wlogout
+/usr/local/share/bash-completion/completions/wlogout.bash
+/usr/local/share/fish/completions/wlogout.fish
+/usr/local/share/zsh/site-functions/_wlogout
+/usr/local/etc/wlogout/layout
+/usr/local/etc/wlogout/style.css
+/usr/local/etc/wlogout
+/usr/local/share/zsh/site-functions
+/usr/local/share/zsh
+/usr/local/share/fish/completions
+/usr/local/share/fish
+/usr/local/share/bash-completion/completions
+/usr/local/share/bash-completion
+/usr/local/share/wlogout/icons
+/usr/local/share/wlogout/assets
+/usr/local/share/wlogout

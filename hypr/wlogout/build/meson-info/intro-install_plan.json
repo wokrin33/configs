@@ -1,0 +1,53 @@
+{
+  "targets": {
+    "/home/wokrin/.config/hypr/wlogout/build/wlogout": {
+      "destination": "{bindir}/wlogout",
+      "tag": "runtime",
+      "subproject": null,
+      "install_rpath": null
+    }
+  },
+  "data": {
+    "/home/wokrin/.config/hypr/wlogout/completions/wlogout.bash": {
+      "destination": "share/bash-completion/completions/wlogout.bash",
+      "tag": null,
+      "subproject": null
+    },
+    "/home/wokrin/.config/hypr/wlogout/completions/wlogout.fish": {
+      "destination": "share/fish/completions/wlogout.fish",
+      "tag": null,
+      "subproject": null
+    },
+    "/home/wokrin/.config/hypr/wlogout/completions/_wlogout": {
+      "destination": "share/zsh/site-functions/_wlogout",
+      "tag": null,
+      "subproject": null
+    },
+    "/home/wokrin/.config/hypr/wlogout/layout": {
+      "destination": "{sysconfdir}/wlogout/layout",
+      "tag": null,
+      "subproject": null
+    },
+    "/home/wokrin/.config/hypr/wlogout/style.css": {
+      "destination": "{sysconfdir}/wlogout/style.css",
+      "tag": null,
+      "subproject": null
+    }
+  },
+  "install_subdirs": {
+    "/home/wokrin/.config/hypr/wlogout/assets": {
+      "destination": "{datadir}/wlogout/assets",
+      "tag": null,
+      "subproject": null,
+      "exclude_dirs": [],
+      "exclude_files": []
+    },
+    "/home/wokrin/.config/hypr/wlogout/icons": {
+      "destination": "{datadir}/wlogout/icons",
+      "tag": null,
+      "subproject": null,
+      "exclude_dirs": [],
+      "exclude_files": []
+    }
+  }
+}

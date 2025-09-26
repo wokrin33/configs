@@ -1,0 +1,95 @@
+[
+  {
+    "name": "gtk+-wayland-3.0",
+    "type": "pkgconfig",
+    "version": "3.24.49",
+    "compile_args": [
+      "-I/usr/include/gtk-3.0",
+      "-I/usr/include/pango-1.0",
+      "-I/usr/include/cloudproviders",
+      "-I/usr/include/cairo",
+      "-I/usr/include/gdk-pixbuf-2.0",
+      "-I/usr/include/at-spi2-atk/2.0",
+      "-I/usr/include/at-spi-2.0",
+      "-I/usr/include/atk-1.0",
+      "-I/usr/include/dbus-1.0",
+      "-I/usr/lib/dbus-1.0/include",
+      "-I/usr/include/fribidi",
+      "-I/usr/include/pixman-1",
+      "-I/usr/include/harfbuzz",
+      "-I/usr/include/freetype2",
+      "-I/usr/include/libpng16",
+      "-I/usr/include/gio-unix-2.0",
+      "-I/usr/include/glib-2.0",
+      "-I/usr/lib/glib-2.0/include",
+      "-I/usr/include/libmount",
+      "-I/usr/include/blkid",
+      "-I/usr/include/sysprof-6",
+      "-pthread"
+    ],
+    "link_args": [
+      "/usr/lib/libgtk-3.so",
+      "/usr/lib/libgdk-3.so",
+      "/usr/lib/libz.so",
+      "/usr/lib/libpangocairo-1.0.so",
+      "/usr/lib/libcairo-gobject.so",
+      "/usr/lib/libgdk_pixbuf-2.0.so",
+      "/usr/lib/libatk-1.0.so",
+      "/usr/lib/libpango-1.0.so",
+      "/usr/lib/libcairo.so",
+      "/usr/lib/libharfbuzz.so",
+      "/usr/lib/libgio-2.0.so",
+      "/usr/lib/libgobject-2.0.so",
+      "/usr/lib/libglib-2.0.so"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "gtk"
+    ]
+  },
+  {
+    "name": "gtk-layer-shell-0",
+    "type": "pkgconfig",
+    "version": "0.9.2",
+    "compile_args": [
+      "-I/usr/include/gtk-layer-shell",
+      "-I/usr/include/gtk-3.0",
+      "-I/usr/include/pango-1.0",
+      "-I/usr/include/cloudproviders",
+      "-I/usr/include/cairo",
+      "-I/usr/include/gdk-pixbuf-2.0",
+      "-I/usr/include/at-spi2-atk/2.0",
+      "-I/usr/include/at-spi-2.0",
+      "-I/usr/include/atk-1.0",
+      "-I/usr/include/dbus-1.0",
+      "-I/usr/lib/dbus-1.0/include",
+      "-I/usr/include/fribidi",
+      "-I/usr/include/pixman-1",
+      "-I/usr/include/harfbuzz",
+      "-I/usr/include/freetype2",
+      "-I/usr/include/libpng16",
+      "-I/usr/include/gio-unix-2.0",
+      "-I/usr/include/glib-2.0",
+      "-I/usr/lib/glib-2.0/include",
+      "-I/usr/include/libmount",
+      "-I/usr/include/blkid",
+      "-I/usr/include/sysprof-6",
+      "-pthread"
+    ],
+    "link_args": [
+      "/usr/lib/libgtk-layer-shell.so"
+    ],
+    "include_directories": [],
+    "sources": [],
+    "extra_files": [],
+    "dependencies": [],
+    "depends": [],
+    "meson_variables": [
+      "layershell"
+    ]
+  }
+]
